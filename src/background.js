@@ -1,7 +1,7 @@
-chrome.browserAction.onClicked.addListener(
+Browser.api.browserAction.onClicked.addListener(
    function(tab) 
    {
-     window.open("rdf-editor/index.html");
+     Browser.backgroundOpenTab("rdf-editor/index.html");
    }); 
 
 

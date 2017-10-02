@@ -7,6 +7,11 @@
   "minimum_chrome_version": "18",
   "description": "RDF Editor",
   "homepage_url": "http://osde.openlinksw.com/",
+  "applications": {
+    "gecko": {
+      "id": "osde@openlinksw.com"
+    }
+  },
   "icons": {
       "16":  "img/osde-16.png",
       "48":  "img/osde-48.png",
@@ -25,5 +30,5 @@
     "file:///*/*"
   ],
   "content_security_policy": 
-   "script-src 'self' 'unsafe-eval' chrome-extension://rdf-editor; object-src 'self' chrome-extension://rdf-editor;"
+   "script-src 'self' 'unsafe-eval' moz-extension://rdf-editor; object-src 'self' moz-extension://rdf-editor;"
 }
