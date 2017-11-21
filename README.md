@@ -43,8 +43,8 @@ OSDE bolsters the growing **Write** dimension by letting users create _structure
 - Automatic profile lookup — if authenticated via WebID+TLS protocol — provides default document storage locations and (eventually) other preferences.
 - A variety of _**EDIT**_ views are scoped to Statements, Entities, Attribute Names, and Attribute Values. Users can switch between these views to suit their own editing modality preferences.
 - Documents may be saved (or downloaded) to local or cloud storage.
-- Cloud Storage supports multiple HTTP-based storage protocols (
-[WebDAV](http://dbpedia.org/resource/WebDAV), 
+- Cloud Storage supports multiple HTTP-based storage protocols 
+([WebDAV](http://dbpedia.org/resource/WebDAV), 
 [LDP](http://dbpedia.org/resource/Linked_Data_Platform), 
 [SPARQL Graph Protocol](https://www.w3.org/TR/sparql11-http-rdf-update/), 
 [SPARQL 1.1 Update](https://www.w3.org/TR/sparql11-update/)).
@@ -152,27 +152,37 @@ You can get started by creating a brand new document or applying edits to an exi
 #### Basic Usage
 
 1. Set a location for your document. This could be a folder to contain a new document, or the target document itself.
+
 2. Open your document from its location.
+
 3. Add or edit RDF Language statements using any of the view options — defaults are _Statements_, _Entities_, _Attributes_, _Values_. Configuration options let you change these to _Statements_, _Subjects_, _Predicates_, _Objects_.
+
 4. Save your document to your desktop (via download link) or to a remote cloud location that supports one of:
-   - [Linked Data Platform (LDP)](http://dbpedia.org/resource/Linked_Data_Platform)
+
+   - [Linked Data Platform (LDP)](http://dbpedia.org/resource/Linked_Data_Platform)
    - [WebDAV](http://dbpedia.org/resource/WebDAV)
    - [SPARQL 1.1 Update](https://www.w3.org/TR/sparql11-update/)
    - [SPARQL Graph Protocol](https://www.w3.org/TR/sparql11-http-rdf-update/)
+
 5. Done.
 
 #### Demonstration of Turtle Input
 
 1. Start OSDE with a New Document.
    ![PNG of OSDE demo starting point](http://osde.openlinksw.com/images/osde-usage-demo-screen-1-start-screen.png)
+
 2. From the Action menu, select Input Turtle Directly. Paste or type your Turtle, and click Import.
    ![PNG of OSDE demo Turtle input](http://osde.openlinksw.com/images/osde-usage-demo-screen-2-turtle-source.png)
+
 3. Inspect and/or edit the imported data in Statements view.
    ![PNG of OSDE demo Statements view](http://osde.openlinksw.com/images/osde-usage-demo-screen-3-statements.png)
+
 4. Inspect and/or edit the imported data in Entities (Subjects) view.
    ![PNG of OSDE demo Entities (Subjects) view](http://osde.openlinksw.com/images/osde-usage-demo-screen-4-entities.png)
+
 5. Inspect and/or edit the imported data in Attributes (Predicates) view.
    ![PNG of OSDE demo Attributes (Predicates) view](http://osde.openlinksw.com/images/osde-usage-demo-screen-5-attributes.png)
+
 6. Inspect and/or edit the imported data in Values (Objects) view.
    ![PNG of OSDE demo Values (Objects) view](http://osde.openlinksw.com/images/osde-usage-demo-screen-6-values.png)
  
@@ -185,13 +195,13 @@ Here are a couple of silent screencasts showing OSDE in action, through loose co
 
   <a href="http://www.youtube.com/watch?feature=player_embedded&v=umrrhFk4W7g" 
   target="_blank"><img src="http://img.youtube.com/vi/umrrhFk4W7g/0.jpg" 
-alt="Open Data Flow Demo Video" width="240" height="180" border="10" /></a>
+  alt="Open Data Flow Demo Video" width="240" height="180" border="10" /></a>
 
 
 - OSDS & OSDE Integration Demo — Beyond Bookmarking Annotation Feature
 
   <a href="http://www.youtube.com/watch?feature=player_embedded&v=4v0_qu32od8" 
   target="_blank"><img src="http://img.youtube.com/vi/4v0_qu32od8/0.jpg" 
-alt="Beyond Bookmarking Annotation Feature Demo Video" width="240" height="180" border="10" /></a>
+  alt="Beyond Bookmarking Annotation Feature Demo Video" width="240" height="180" border="10" /></a>
 
 
