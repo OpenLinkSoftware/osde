@@ -56,6 +56,12 @@ OSDE bolsters the growing **Write** dimension by letting users create _structure
 - OSDE is 100% Javascript.
 - OSDE is made available as Open Source.
 
+### New features and fixes
+
+#### v1.1.3, 2017-11-21
+- Fix — Copy and Paste of RDF-Turtle or JSON-LD via “Direct Input” feature
+- Add — Load Turtle or JSON-LD documents from Filesystem
+- Add — Default WebID may be set via interaction with YouID extension, if also present — this sets the identity used for “Save” and “Save As” operations 
 
 ## Deployment
 To deploy this extension on your local machine you can either *clone the git source tree* or
