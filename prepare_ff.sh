@@ -1,5 +1,5 @@
 #!/bin/bash
-EXT_DIRNAME=./OSDE_Chrome
+EXT_DIRNAME=./OSDE_FF
 EXT_SRC=./src
 
 rm -rf $EXT_DIRNAME
@@ -25,8 +25,8 @@ for I_DIR in background.js background.html ; do
 done
 
 
-cp -va $SRC_DIR/manifest.json $DST_DIR/
-cp -va $SRC_DIR/browser.js    $DST_DIR/
+cp -va $SRC_DIR/manifest.json.ff $DST_DIR/manifest.json
+cp -va $SRC_DIR/browser_ff.js    $DST_DIR/browser.js
 
 
 for I_DIR in img rdf-editor; do
