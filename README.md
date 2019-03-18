@@ -1,12 +1,12 @@
 # OpenLink Structured Data Editor
 
 ## Intro
-The OpenLink Structured Data Editor (OSDE) is a tool for creating and editing structured data using RDF Language sentences/statements.  It is available here as a plugin for 
+The OpenLink Structured Data Editor (OSDE) is a tool for creating and editing structured data using RDF Language sentences/statements.  It is available here as a plugin for
 [Google Chrome](http://www.google.com/chrome/browser/),
-[Mozilla Firefox](http://www.mozilla.org/firefox/) and 
+[Mozilla Firefox](http://www.mozilla.org/firefox/) and
 [Opera](http://www.opera.com/) web browsers (support for additional browsers like
 [Apple Safari](http://www.apple.com/safari/) and
-[Microsoft Edge](https://www.microsoft.com/microsoft-edge) is under construction), and 
+[Microsoft Edge](https://www.microsoft.com/microsoft-edge) is under construction), and
 [elsewhere in a webserver-hosted form](http://osde.openlinksw.com/).
 
 In any of these forms, OSDE creates and enables creation and editing of data using abstract subject → predicate → object or entity → attribute → value notation. Once constructed, data can be saved to local or remote storage as RDF-Turtle documents. Full document access requires that HTTP-accessible host servers support at least one of the following open standards:
@@ -43,15 +43,15 @@ OSDE bolsters the growing **Write** dimension by letting users create _structure
 - Automatic profile lookup — if authenticated via WebID+TLS protocol — provides default document storage locations and (eventually) other preferences.
 - A variety of _**EDIT**_ views are scoped to Statements, Entities, Attribute Names, and Attribute Values. Users can switch between these views to suit their own editing modality preferences.
 - Documents may be saved (or downloaded) to local or cloud storage.
-- Cloud Storage supports multiple HTTP-based storage protocols 
-([WebDAV](http://dbpedia.org/resource/WebDAV), 
-[LDP](http://dbpedia.org/resource/Linked_Data_Platform), 
-[SPARQL Graph Protocol](https://www.w3.org/TR/sparql11-http-rdf-update/), 
+- Cloud Storage supports multiple HTTP-based storage protocols
+([WebDAV](http://dbpedia.org/resource/WebDAV),
+[LDP](http://dbpedia.org/resource/Linked_Data_Platform),
+[SPARQL Graph Protocol](https://www.w3.org/TR/sparql11-http-rdf-update/),
 [SPARQL 1.1 Update](https://www.w3.org/TR/sparql11-update/)).
-- Hosted deployment may be through [Apache](http://dbpedia.org/resource/Apache_HTTP_Server), 
-[IIS](http://dbpedia.org/resource/Internet_Information_Services), 
-[Node.js](https://en.wikipedia.org/wiki/Node.js), 
-[Tomcat](http://dbpedia.org/resource/Apache_Tomcat), 
+- Hosted deployment may be through [Apache](http://dbpedia.org/resource/Apache_HTTP_Server),
+[IIS](http://dbpedia.org/resource/Internet_Information_Services),
+[Node.js](https://en.wikipedia.org/wiki/Node.js),
+[Tomcat](http://dbpedia.org/resource/Apache_Tomcat),
 [OpenLink Virtuoso](http://dbpedia.org/resource/Virtuoso_Universal_Server), or any other HTTP Server.
 - OSDE is 100% Javascript.
 - OSDE is made available as Open Source.
@@ -61,7 +61,7 @@ OSDE bolsters the growing **Write** dimension by letting users create _structure
 #### v1.1.3, 2017-11-21
 - Fix — Copy and Paste of RDF-Turtle or JSON-LD via “Direct Input” feature
 - Add — Load Turtle or JSON-LD documents from Filesystem
-- Add — Default WebID may be set via interaction with YouID extension, if also present — this sets the identity used for “Save” and “Save As” operations 
+- Add — Default WebID may be set via interaction with YouID extension, if also present — this sets the identity used for “Save” and “Save As” operations
 
 ## Deployment
 To deploy this extension on your local machine you can either *clone the git source tree* or
@@ -185,7 +185,7 @@ You can get started by creating a brand new document or applying edits to an exi
 
 6. Inspect and/or edit the imported data in Values (Objects) view.
    ![PNG of OSDE demo Values (Objects) view](http://osde.openlinksw.com/images/osde-usage-demo-screen-6-values.png)
- 
+
 
 #### Usage Screencasts
 
@@ -193,15 +193,15 @@ Here are a couple of silent screencasts showing OSDE in action, through loose co
 
 - OpenLink RDF Editor Demo -- Open Data Flow
 
-  <a href="http://www.youtube.com/watch?feature=player_embedded&v=umrrhFk4W7g" 
-  target="_blank"><img src="http://img.youtube.com/vi/umrrhFk4W7g/0.jpg" 
+  <a href="http://www.youtube.com/watch?feature=player_embedded&v=umrrhFk4W7g"
+  target="_blank"><img src="http://img.youtube.com/vi/umrrhFk4W7g/0.jpg"
   alt="Open Data Flow Demo Video" width="240" height="180" border="10" /></a>
 
 
 - OSDS & OSDE Integration Demo — Beyond Bookmarking Annotation Feature
 
-  <a href="http://www.youtube.com/watch?feature=player_embedded&v=4v0_qu32od8" 
-  target="_blank"><img src="http://img.youtube.com/vi/4v0_qu32od8/0.jpg" 
+  <a href="http://www.youtube.com/watch?feature=player_embedded&v=4v0_qu32od8"
+  target="_blank"><img src="http://img.youtube.com/vi/4v0_qu32od8/0.jpg"
   alt="Beyond Bookmarking Annotation Feature Demo Video" width="240" height="180" border="10" /></a>
 
 
