@@ -2,7 +2,7 @@
   "name": "OpenLink Structured Data Editor",
   "short_name": "osde",
   "author":"OpenLink Software",
-  "version": "1.1.10",
+  "version": "1.1.11",
   "manifest_version": 2,
   "minimum_chrome_version": "18",
   "description": "RDF Editor",
