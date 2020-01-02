@@ -20,7 +20,7 @@ Data stored as RDF-Turtle documents can be further transformed to other formats 
 
 
 ## License
-Copyright 2014-2019 [OpenLink Software](mailto:osde@openlinksw.com)
+Copyright 2014-2020 [OpenLink Software](mailto:osde@openlinksw.com)
 
 This software is licensed under the GNU General Public License (see
 [COPYING](http://github.com/OpenLinkSoftware/osde/blob/develop/COPYING)).
